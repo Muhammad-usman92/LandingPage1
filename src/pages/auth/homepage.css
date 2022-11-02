@@ -1,0 +1,47 @@
+.bottomText{
+    font-size: x-small;
+}
+
+.hero-img{
+    width: 636px;
+   height: 500px;
+   position: absolute;
+   left: 600px
+}
+
+.text{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 265px;
+}
+
+.container{
+    margin-top: 1000px;
+}
+
+.design-img{
+    position: absolute;
+    width: 512px;
+    height: 472px;
+    left: 700px;
+}
+
+.image {
+    position: relative;
+    width: 477px;
+    height: 380px;
+
+}
+
+.group{
+    position: absolute;
+    width: 558px;
+    height: 467px;
+
+}
+
+.imageBlue{
+    width: 100%;
+    height: 230px;
+}
+
