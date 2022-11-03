@@ -245,102 +245,110 @@
   color: #64626a;
 }
 
-.support-1{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
+.support-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.4px;
+  text-align: center;
+  letter-spacing: 0.4px;
 
-color: #000000;
+  color: #000000;
 }
 
-.support-2{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
+.support-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
 
-text-align: center;
-letter-spacing: 0.2px;
+  text-align: center;
+  letter-spacing: 0.2px;
 
-color: #64626A;
-
+  color: #64626a;
 }
 
-.icon1{
-    width:  150px;
-    height: 150px
+.icon1 {
+  width: 150px;
+  height: 150px;
 }
 
-.card2{
-    height: 166px;
+.card2 {
+  height: 166px;
   background: #f8f8f8;
   border: 1px solid #e8e7e8;
   border-radius: 12px;
   padding: 78px 40px 36px 40px;
-  position: relative
+  position: relative;
 }
 
-.oval{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
+.oval {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.6px;
+  text-align: center;
+  letter-spacing: 0.6px;
 
-color: #000000;
+  color: #000000;
 }
 
-.oval2{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 34px;
-/* or 142% */
+.oval2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  /* or 142% */
 
-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
 
-color: #000000;
+  color: #000000;
 }
 
-.vetted{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
+.vetted {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.4px;
+  text-align: center;
+  letter-spacing: 0.4px;
 
-color: #000000;
-
+  color: #000000;
 }
 
-.setted{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
+.setted {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
 
-text-align: center;
-letter-spacing: 0.2px;
+  text-align: center;
+  letter-spacing: 0.2px;
 
-color: #64626A;
+  color: #64626a;
+}
 
+.white {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.6px;
+
+  color: #ffffff;
 }
