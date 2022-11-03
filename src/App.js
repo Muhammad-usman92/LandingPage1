@@ -1,5 +1,4 @@
 // CSS (do not change the orders)
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/global.scss'
 import NavBar from './components/NavBar/NavBar';
 import HomePage from './pages/auth/HomePage';
@@ -9,7 +8,7 @@ import HomePage from './pages/auth/HomePage';
 function App() {
   return (
     <div className="App">  
-    <NavBar />   
+  
     <HomePage />
     </div>
   );
