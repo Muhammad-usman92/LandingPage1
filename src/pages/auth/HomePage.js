@@ -211,8 +211,8 @@ export default function HomePage() {
             backgroundSize: "cover",
           }}
         >
-          <div className="col-6 text-center text-white p-5 mt-30">
-            <h1 className="">Manage your freelance work in easiest way</h1>
+          <div className="col-6 text-center text-white p-5 mt-15">
+            <h1 className="white">Manage your freelance work in easiest way</h1>
           </div>
 
           <div className="col-6 text-center p-lg-5 mt-50">
