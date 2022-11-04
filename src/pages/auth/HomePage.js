@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="ml-50 mt-100">
         <CustomButton variant btnText />
       </div>
-      <div className="col-12 col-md-6 col-lg-6">
+      <div className="col-sm-12 col-md-6 col-lg-6">
         <h1 className="mt-30 main-heading">Flexible contracts to</h1>
         <h1 className="main-heading">secure your business</h1>
 
@@ -60,7 +60,7 @@ export default function HomePage() {
             <div className="imageSectionCard middle">
               <img src={PngIcons.Icon1} alt="" className="icon"></img>
             </div>
-            <h2 className="text-center vetted mt-40">Vetted Templates</h2>
+            <h2 className="text-center vetted p-2">Vetted Templates</h2>
             <h6 className="Structured-lorem setted">
               Use structured lorem ipsum dolor sit amet your own custom
               agreements and even standard.
@@ -86,7 +86,7 @@ export default function HomePage() {
             <div className="imageSectionCard middle">
               <img src={PngIcons.Icon3} alt="" className="icon"></img>
             </div>
-            <h2 className="text-center vetted mt-40"> Auto-Reminders</h2>
+            <h2 className="text-center vetted p-2"> Auto-Reminders</h2>
             <h6 className="Strucutured-lorem setted">
               Auto-remind your lorem ipsum dolor sit amet for their signature
               and receive a notification when it is signed.
@@ -104,7 +104,7 @@ export default function HomePage() {
           </div>
 
           <div className="col-5">
-            <h1 className="mt-200 reminders-text">Protect Your Business</h1>
+            <h1 className="reminders-text">Protect Your Business</h1>
             <h6 className="mt-30 business">
               Vetted by thousands of freelancers and top contract lawyers,
               select from a variety of contract templates to get started. Then,
@@ -124,12 +124,12 @@ export default function HomePage() {
           </div>
 
           <div className="col-6 mt-50">
-            <img src={PngIcons.Group2} alt="" className="image mt-100"></img>
+            <img src={PngIcons.Group2} alt="" className="image image1 mt-100"></img>
           </div>
         </div>
 
         <div className="row mt-100 justify-flex-end space-between">
-          <div className="col-12 col-md-6 col-sm-12">
+          <div className="col-12 col-md-6 col-sm-6">
             <h1 className="mt-100 stream-text-1">Streamline E-Signature</h1>
             <h6 className="mt-30 stream-text-2 pr-100">
               Use a legally-binding e-signature to speed up the formalities when
@@ -138,12 +138,12 @@ export default function HomePage() {
             </h6>
           </div>
 
-          <div className="col-12 col-md-6 col-sm-12 order-1">
-            <img src={PngIcons.Group} alt="" className="image"></img>
+          <div className="col-12 col-md-6 col-sm-6 order-1">
+            <img src={PngIcons.Group} alt="" className="image image1"></img>
           </div>
         </div>
 
-        <div className="row text-center justify-content-center">
+        <div className="row text-center justify-content-center w-100">
           <div className="mt-150 col-7 trusted-text-1 ml-55">
             <h1>Trusted by 300K+ freelancers and agencies worldwide</h1>
             <h6 className="mt-30 trusted-text-2">
@@ -199,7 +199,7 @@ export default function HomePage() {
 
           <div className="col-4">
             <div className="card2 p-5 bg-light">
-              <h4>Online Contract Maker</h4>
+              <h4 className="mt-15">Online Contract Maker</h4>
             </div>
           </div>
         </div>
@@ -211,12 +211,12 @@ export default function HomePage() {
             backgroundSize: "cover",
           }}
         >
-          <div className="col-6 text-center text-white p-5 mt-15">
+          <div className="col-6 text-center text-white p-5 mt-15 col-sm-6 freelance">
             <h1 className="white">Manage your freelance work in easiest way</h1>
           </div>
 
           <div className="col-6 text-center p-lg-5 mt-50">
-            <button type="button" className="btn btn-light btn-lg ml-150">
+            <button type="button" className="btn btn-light btn-lg ml-150 button">
               Start Free
             </button>
           </div>

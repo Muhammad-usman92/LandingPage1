@@ -152,20 +152,120 @@
 
 @media screen and (max-width: 600px) {
   .hero-img {
+    width: 120%;
+    height:auto
+  }
+
+  .design-img{
+    width: 120%;
+    height: 70%;
+  }
+
+  .freelance{
+    padding: 0px  !important;
+    margin-top: 50px  !important;
+    
+  }
+
+  .button {
+    margin-top: 50px !important;
+  }
+
+  .image{
+    width: 130%;
+    height: 70%;
+
+  }
+
+  .card2{
+    padding: 10px !important;
+  }
+
+  .cards-margin {
     width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: auto
   }
 
   .card {
     width: 100%;
     height: auto;
     float: left;
-    margin: 0px;
-    padding: auto;
+    margin-top: 80px;
+    padding: 10px;
   }
 
   .card-outer-box{
     padding:0px !important
   }
+
+  .vetted {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.4px;
+  
+    color: #000000;
+    margin-top: 80px;
+  }
+
+  .reminders-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+  
+    letter-spacing: 0.6px;
+  
+    color: #000000;
+    margin-top: 100px  !important;
+    margin-left: 15px;
+  }
+
+  .business{
+    margin-left:  10px;
+  }
+
+
+
+
+}
+
+@media screen and (min-width:1600px){
+  .design-img{
+    position: relative;
+    width: 512px;
+    height: 472px;
+
+  }
+
+
+  .image {
+    position: relative;
+    width: 565px;
+    height: 434px;
+  }
+
+  .image1{
+    position: relative;
+    width: 600px;
+    height: 500px
+  }
+
+  .hero-img {
+    position: relative;
+    width: 636px;
+    height: 500px;
+  }
+  
 }
 
 .business {
@@ -192,6 +292,7 @@
   letter-spacing: 0.6px;
 
   color: #000000;
+  margin-top: 200px;
 }
 
 .reminders-text2 {
