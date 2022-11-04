@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  overflow-x: hidden
 }
 
 // .main-heading{
@@ -65,6 +66,11 @@ body {
 .side-menu-active{
   font-weight: 500;
 }
+
+.space-between{
+  justify-content: space-between;
+}
+
 
 #SignUp{
   .signup-form{

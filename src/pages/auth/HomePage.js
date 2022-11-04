@@ -54,7 +54,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="row mt-64 pl-150 pr-150">
+      <div className="row card-outer-box mr-0 ml-0 mt-64 pl-150 pr-150">
         <div className="col-sm-4">
           <div className="card ">
             <div className="imageSectionCard middle">
@@ -73,7 +73,7 @@ export default function HomePage() {
             <div className="imageSectionCard middle">
               <img src={PngIcons.Icon2} alt="" className="icon"></img>
             </div>
-            <h2 className=" text-center vetted mt-40"> Electronic Signatures</h2>
+            <h2 className=" text-center vetted p-2"> Electronic Signatures</h2>
             <h6 className="Structured-lorem setted">
               Send, sign lorem ipsum dolor sit amet and store your
               legally-bindings online contracts with your clients.
@@ -94,8 +94,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-4 order-1 ml-150">
+        <div className="row space-between">
+          <div className="col-6 order-1">
             <img
               src={PngIcons.Design}
               alt=""
@@ -128,8 +128,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="row mt-100 justify-flex-end">
-          <div className="col-6">
+        <div className="row mt-100 justify-flex-end space-between">
+          <div className="col-12 col-md-6 col-sm-12">
             <h1 className="mt-100 stream-text-1">Streamline E-Signature</h1>
             <h6 className="mt-30 stream-text-2 pr-100">
               Use a legally-binding e-signature to speed up the formalities when
@@ -138,13 +138,13 @@ export default function HomePage() {
             </h6>
           </div>
 
-          <div className="col-6 order-1">
-            <img src={PngIcons.Group} alt="" className="image ml-100"></img>
+          <div className="col-12 col-md-6 col-sm-12 order-1">
+            <img src={PngIcons.Group} alt="" className="image"></img>
           </div>
         </div>
 
         <div className="row text-center justify-content-center">
-          <div className="mt-150 col-7 trusted-text-1 ml-150 ">
+          <div className="mt-150 col-7 trusted-text-1 ml-55">
             <h1>Trusted by 300K+ freelancers and agencies worldwide</h1>
             <h6 className="mt-30 trusted-text-2">
               Whether you’re just getting started or your business is booming,
@@ -181,11 +181,11 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="row mt-200 ml-10">
-          <h1 className="ml-50 oval">Browse Oval's Contract Templates</h1>
+        <div className="mt-200">
+          <h1 className="oval">Browse Oval's Contract Templates</h1>
         </div>
 
-        <div className="row text-center mt-50 oval2">
+        <div className="row text-center mt-50 oval2 ml-0 mr-0 w-100 p-6">
           <div className="col-4">
             <div className="card2 p-5 bg-light">
               <h4>Mobile Design Contractor Template</h4>
@@ -198,14 +198,14 @@ export default function HomePage() {
           </div>
 
           <div className="col-4">
-            <div className="card2 p-6 bg-light">
+            <div className="card2 p-5 bg-light">
               <h4>Online Contract Maker</h4>
             </div>
           </div>
         </div>
 
         <div
-          className="row position-relative imageBlue mt-200"
+          className="row ml-0 mr-0 position-relative imageBlue mt-200"
           style={{
             background: `url(${PngIcons.Blue})`,
             backgroundSize: "cover",
@@ -216,46 +216,46 @@ export default function HomePage() {
           </div>
 
           <div className="col-6 text-center p-lg-5 mt-50">
-            <button type="button" className="btn btn-light btn-lg">
+            <button type="button" className="btn btn-light btn-lg ml-150">
               Start Free
             </button>
           </div>
         </div>
       </div>
 
-      <div className="row mt-200 ml-200">
-      <div className="col-5 ">
+      <div className="row mt-200 ml-200 ml-0 mr-0">
+      <div className="col-5 social">
         <div className="mt-20">Twitter</div>
-        <div className="mt-20">Facebook</div>
-        <div className="mt-20">Instagram</div>
-        <div className="mt-100">@2020 Oval</div>
+        <div className="mt-10">Facebook</div>
+        <div className="mt-10">Instagram</div>
+        <div className="mt-115">@2020 Oval</div>
       </div>
         <div className="col-2">
-          <h5>Company</h5>
-          <div className="mt-20">About us</div>
-          <div className="mt-20">Careers</div>
-          <div className="mt-20">Legals</div>
-          <div className="mt-20">Credit</div>
+          <h5 className="end">Company</h5>
+          <div className="mt-10 social">About us</div>
+          <div className="mt-10 social">Careers</div>
+          <div className="mt-10 social">Legals</div>
+          <div className="mt-10 social">Credit</div>
         </div>
 
         <div className="col-2">
-          <h5>Product</h5>
-          <div className="mt-20">Proposals</div>
-          <div className="mt-20">Contracts</div>
-          <div className="mt-20">Time Tracking</div>
-          <div className="mt-20">Task Management</div>
-          <div className="mt-20">Invoicing</div>
-          <div className="mt-20">Reporting</div>
+          <h5 className="end">Product</h5>
+          <div className="mt-10 social">Proposals</div>
+          <div className="mt-10 social">Contracts</div>
+          <div className="mt-10 social">Time Tracking</div>
+          <div className="mt-10 social">Task Management</div>
+          <div className="mt-10 social">Invoicing</div>
+          <div className="mt-10 social">Reporting</div>
         </div>
 
         <div className="col-2">
-          <h5>Samples</h5>
-          <div className="mt-20">Accounting</div>
-          <div className="mt-20">Construction</div>
-          <div className="mt-20">Healthcare</div>
-          <div className="mt-20">Legal</div>
-          <div className="mt-20">Sales</div>
-          <div className="mt-20">Technology</div>
+          <h5 className="end">Samples</h5>
+          <div className="mt-10 social">Accounting</div>
+          <div className="mt-10 social">Construction</div>
+          <div className="mt-10 social">Healthcare</div>
+          <div className="mt-10 social">Legal</div>
+          <div className="mt-10 social">Sales</div>
+          <div className="mt-10 social">Technology</div>
         </div>
       </div>
     </div>
