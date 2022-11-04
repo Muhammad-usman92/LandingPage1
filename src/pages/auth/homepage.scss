@@ -9,6 +9,48 @@
   color: #64626a;
 }
 
+.hero-section{
+  padding: 140px 0px
+}
+
+.hero-input-div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  
+}
+
+.hero-input-field{
+  background-color: white;
+  border: 1px solid #D1D0D6;
+  outline: 0px;
+  padding: 15px 16px;
+  width: 100%;
+  border-radius:6px 0px 0px 6px;
+  font-family: 'Inter';
+}
+
+.hero-span{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+  align-items: center;
+  padding: 4px 8px;
+  width: fit-content;
+  background-color: #E8E7E8;
+  font-family: 'Inter';
+  border-radius: 4px;
+}
+
+.cta{
+  height: 100%;
+  border-radius:0px 6px 6px 0px;
+  font-family: 'Inter';
+  padding: 0px 40px;
+  width: fit-content;
+}
+
 .hero-img {
   width: 100%;
   height: 500px;
@@ -27,10 +69,8 @@
 
   color: #000000;
 }
-
-.container {
-  margin-top: 1000px;
-}
+/* 
+ */
 
 .design-img {
   position: relative;

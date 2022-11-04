@@ -1,40 +1,55 @@
 import React from "react";
 import CustomButton from "../../components/CustomButton";
-import "./homepage.css";
+import "./homepage.scss";
 import PngIcons from "../../images/PngIcon";
 
 export default function HomePage() {
   return (
     <div>
-      <div className="ml-50 mt-100">
+      {/* <div className="ml-50 mt-100">
         <CustomButton variant btnText />
-      </div>
+      </div> */}
+
+      {/* Hero Section */}
+      <div className='container hero-section'>
+        {/* Content */}
+        <div className="row">
       <div className="col-sm-12 col-md-6 col-lg-6">
-        <h1 className="mt-30 main-heading">Flexible contracts to</h1>
-        <h1 className="main-heading">secure your business</h1>
+      <div className="hero-span"><div>💼</div><div>Contract</div></div>
+        <h1 className="main-heading">Flexible contracts to secure your business</h1>
+        <p className="mt-30 e-sign-text">
+          Create & e-sign contracts from vetted templates. Get peace of lorem ipsum dolor sit amet work.
+        </p>
 
-        <h6 className="mt-30 e-sign-text">
-          Create & e-sign contracts from vetted templates.
-          <br /> Get peace of lorem ipsum dolor sit amet work.
-        </h6>
-
-        <span>
+        {/* Email input form */}
+        <div className="hero-input-div">
           <input
-            className="form-control-lg"
+            className="hero-input-field"
             type="text"
             placeholder="Enter your email"
           />
 
-          <button type="button" className="btn btn-primary btn-lg mb-10">
+          <button type="button" className="btn btn-primary cta">
             Start Free
           </button>
-        </span>
+        </div>
 
         <div className="bottomText mt-10">
           *1 month free trial for all features access
         </div>
       </div>
 
+      <img
+            src={PngIcons.HeroImage}
+            alt=""
+            className="col-md-6 col-lg-6"
+          ></img>
+
+      </div>
+      </div>
+
+      
+      
       <div className="row justify-flex-end">
         <div className="col-sm-6 col-md-6">
           <img
@@ -45,6 +60,9 @@ export default function HomePage() {
         </div>
       </div>
 
+
+
+      {/* Being Professional Part */}
       <div className="row">
         <div className="col-12">
           <h1 className="text">
@@ -94,6 +112,9 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        
+        {/* Protect your business part */}
         <div className="row space-between">
           <div className="col-6 order-1">
             <img
@@ -113,6 +134,9 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        
+        {/* Automate reminders part */}
         <div className="row justify-flex-end">
           <div className="col-6 order-5 pl-150">
             <h1 className="mt-250 reminders-text">Automate Reminders</h1>
@@ -128,6 +152,8 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        {/* Streamline E-signature part */}
         <div className="row mt-100 justify-flex-end space-between">
           <div className="col-12 col-md-6 col-sm-6">
             <h1 className="mt-100 stream-text-1">Streamline E-Signature</h1>
@@ -143,6 +169,8 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        {/* Freelancers part */}
         <div className="row text-center justify-content-center w-100">
           <div className="mt-150 col-7 trusted-text-1 ml-55">
             <h1>Trusted by 300K+ freelancers and agencies worldwide</h1>
@@ -181,6 +209,9 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        
+        {/* Browse Oval's part */}
         <div className="mt-200">
           <h1 className="oval">Browse Oval's Contract Templates</h1>
         </div>
@@ -204,8 +235,10 @@ export default function HomePage() {
           </div>
         </div>
 
+        
+        {/* Manage your freelance part */}
         <div
-          className="row ml-0 mr-0 position-relative imageBlue mt-200"
+          className="row ml-0 mr-0 imageBlue mt-200"
           style={{
             background: `url(${PngIcons.Blue})`,
             backgroundSize: "cover",
@@ -223,6 +256,9 @@ export default function HomePage() {
         </div>
       </div>
 
+      
+      
+      {/* Ending part */}
       <div className="row mt-200 ml-200 ml-0 mr-0">
       <div className="col-5 social">
         <div className="mt-20">Twitter</div>
