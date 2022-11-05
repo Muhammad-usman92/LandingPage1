@@ -1,7 +1,7 @@
 import React from "react";
-import CustomButton from "../../components/CustomButton";
 import "./homepage.scss";
 import PngIcons from "../../images/PngIcon";
+import Footer from "../../components/Footer";
 
 export default function HomePage() {
   return (
@@ -11,60 +11,51 @@ export default function HomePage() {
       </div> */}
 
       {/* Hero Section */}
-      <div className='container hero-section'>
+      <div className="container hero-section">
         {/* Content */}
         <div className="row">
-      <div className="col-sm-12 col-md-6 col-lg-6">
-      <div className="hero-span"><div>💼</div><div>Contract</div></div>
-        <h1 className="main-heading">Flexible contracts to secure your business</h1>
-        <p className="mt-30 e-sign-text">
-          Create & e-sign contracts from vetted templates. Get peace of lorem ipsum dolor sit amet work.
-        </p>
+          <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="hero-span">
+              <div>💼</div>
+              <div>Contract</div>
+            </div>
+            <h1 className="main-heading">
+              Flexible contracts to secure your business
+            </h1>
+            <p className="mt-30 e-sign-text">
+              Create & e-sign contracts from vetted templates. Get peace of
+              lorem ipsum dolor sit amet work.
+            </p>
 
-        {/* Email input form */}
-        <div className="hero-input-div">
-          <input
-            className="hero-input-field"
-            type="text"
-            placeholder="Enter your email"
-          />
+            {/* Email input form */}
+            <div className="hero-input-div">
+              <input
+                className="hero-input-field"
+                type="text"
+                placeholder="Enter your email"
+              />
 
-          <button type="button" className="btn btn-primary cta">
-            Start Free
-          </button>
-        </div>
+              <button type="button" className="btn btn-primary cta">
+                Start Free
+              </button>
+            </div>
 
-        <div className="bottomText mt-10">
-          *1 month free trial for all features access
-        </div>
-      </div>
+            <div className="bottomText mt-10">
+              *1 month free trial for all features access
+            </div>
+          </div>
 
-      <img
+          <img
             src={PngIcons.HeroImage}
             alt=""
             className="col-md-6 col-lg-6"
           ></img>
-
-      </div>
-      </div>
-
-      
-      
-      <div className="row justify-flex-end">
-        <div className="col-sm-6 col-md-6">
-          <img
-            src={PngIcons.HeroImage}
-            alt=""
-            className="mt-200 hero-img"
-          ></img>
         </div>
-      </div>
-
-
 
       {/* Being Professional Part */}
+      <div className="container hero-selection">
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 col-sm-12 mt-100">
           <h1 className="text">
             Make sure you’re being professional and <br />
             protected with customizable work contracts.
@@ -72,17 +63,18 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="row card-outer-box mr-0 ml-0 mt-64 pl-150 pr-150">
+
+      <div className="row mt-80">
         <div className="col-sm-4">
           <div className="card ">
             <div className="imageSectionCard middle">
               <img src={PngIcons.Icon1} alt="" className="icon"></img>
             </div>
             <h2 className="text-center vetted p-2">Vetted Templates</h2>
-            <h6 className="Structured-lorem setted">
+            <p className="Structured-lorem setted">
               Use structured lorem ipsum dolor sit amet your own custom
               agreements and even standard.
-            </h6>
+            </p>
           </div>
         </div>
 
@@ -112,10 +104,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        
-        
         {/* Protect your business part */}
-        <div className="row space-between">
+        <div className="row">
           <div className="col-6 order-1">
             <img
               src={PngIcons.Design}
@@ -126,33 +116,36 @@ export default function HomePage() {
 
           <div className="col-5">
             <h1 className="reminders-text">Protect Your Business</h1>
-            <h6 className="mt-30 business">
+            <p className="mt-30 business">
               Vetted by thousands of freelancers and top contract lawyers,
               select from a variety of contract templates to get started. Then,
               add your own customizations for your business.
-            </h6>
+            </p>
           </div>
         </div>
 
-        
-        
         {/* Automate reminders part */}
+
         <div className="row justify-flex-end">
-          <div className="col-6 order-5 pl-150">
+          <div className="col-6 order-5 pl-150 reminders">
             <h1 className="mt-250 reminders-text">Automate Reminders</h1>
-            <h6 className="mt-30 reminders-text2">
+            <p className="business">
               Once sending your contract, stay up-to-date with automatic
               reminders to your client, as well as notifications for viewing and
               counter-signing.
-            </h6>
+            </p>
           </div>
 
           <div className="col-6 mt-50">
-            <img src={PngIcons.Group2} alt="" className="image image1 mt-100"></img>
+            <img
+              src={PngIcons.Group2}
+              alt=""
+              className="image image1 mt-100"
+            ></img>
           </div>
         </div>
+        </div>
 
-        
         {/* Streamline E-signature part */}
         <div className="row mt-100 justify-flex-end space-between">
           <div className="col-12 col-md-6 col-sm-6">
@@ -169,7 +162,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        
         {/* Freelancers part */}
         <div className="row text-center justify-content-center w-100">
           <div className="mt-150 col-7 trusted-text-1 ml-55">
@@ -209,8 +201,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        
-        
         {/* Browse Oval's part */}
         <div className="mt-200">
           <h1 className="oval">Browse Oval's Contract Templates</h1>
@@ -235,7 +225,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        
         {/* Manage your freelance part */}
         <div
           className="row ml-0 mr-0 imageBlue mt-200"
@@ -249,51 +238,22 @@ export default function HomePage() {
           </div>
 
           <div className="col-6 text-center p-lg-5 mt-50">
-            <button type="button" className="btn btn-light btn-lg ml-150 button">
+            <button
+              type="button"
+              className="btn btn-light btn-lg ml-150 button"
+            >
               Start Free
             </button>
           </div>
         </div>
       </div>
+      </div>
 
-      
-      
       {/* Ending part */}
-      <div className="row mt-200 ml-200 ml-0 mr-0">
-      <div className="col-5 social">
-        <div className="mt-20">Twitter</div>
-        <div className="mt-10">Facebook</div>
-        <div className="mt-10">Instagram</div>
-        <div className="mt-115">@2020 Oval</div>
-      </div>
-        <div className="col-2">
-          <h5 className="end">Company</h5>
-          <div className="mt-10 social">About us</div>
-          <div className="mt-10 social">Careers</div>
-          <div className="mt-10 social">Legals</div>
-          <div className="mt-10 social">Credit</div>
-        </div>
 
-        <div className="col-2">
-          <h5 className="end">Product</h5>
-          <div className="mt-10 social">Proposals</div>
-          <div className="mt-10 social">Contracts</div>
-          <div className="mt-10 social">Time Tracking</div>
-          <div className="mt-10 social">Task Management</div>
-          <div className="mt-10 social">Invoicing</div>
-          <div className="mt-10 social">Reporting</div>
-        </div>
 
-        <div className="col-2">
-          <h5 className="end">Samples</h5>
-          <div className="mt-10 social">Accounting</div>
-          <div className="mt-10 social">Construction</div>
-          <div className="mt-10 social">Healthcare</div>
-          <div className="mt-10 social">Legal</div>
-          <div className="mt-10 social">Sales</div>
-          <div className="mt-10 social">Technology</div>
-        </div>
+
+      
       </div>
-    </div>
   );
 }

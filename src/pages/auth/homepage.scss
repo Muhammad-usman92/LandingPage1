@@ -165,12 +165,13 @@
 }
 
 .card {
-  height: 283px;
+
   background: #f8f8f8;
   border: 1px solid #e8e7e8;
   border-radius: 12px;
   padding: 78px 40px 36px 40px;
   position: relative;
+  padding-inline: inherit;
 }
 
 .imageSectionCard {
@@ -196,19 +197,27 @@
     height:auto
   }
 
+  .support-1{
+    margin-top: 80px;
+  }
+
+  .reminders{
+    padding-left: 80px !important;
+  }
+
   .design-img{
-    width: 120%;
-    height: 70%;
+    width: 130%;
+    height: 60%;
   }
 
   .freelance{
     padding: 0px  !important;
-    margin-top: 50px  !important;
+    margin-top: 25px  !important;
     
   }
 
   .button {
-    margin-top: 50px !important;
+    margin-top: 35px !important;
   }
 
   .image{
@@ -233,7 +242,7 @@
     height: auto;
     float: left;
     margin-top: 80px;
-    padding: 10px;
+    padding: initial;
   }
 
   .card-outer-box{
